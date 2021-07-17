@@ -15,6 +15,8 @@ Em seguida, via linha de comando, na pasta do projeto compile o projeto "mvn ins
 Para gerar o build e compilar o projeto digite os comandos:
 
 $ docker-compose build
+
 $ docker-compose up
 
+##Finished
 Agora é só esperar o servidor inicializar!
