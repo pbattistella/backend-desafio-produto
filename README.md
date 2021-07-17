@@ -13,6 +13,7 @@ Para executar o projeto é necessário em primeiro lugar subir os containers do 
 Em seguida, via linha de comando, na pasta do projeto compile o projeto "mvn install". Para compilar o banco de dados deverá estar rodando. Caso queira testar se o projeto está rodando basta digitar "java -jar target/desafio-0.0.1-SNAPSHOT.jar
 
 Para gerar o build e compilar o projeto digite os comandos:
+
 $ docker-compose build
 $ docker-compose up
 
