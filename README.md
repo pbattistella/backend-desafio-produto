@@ -18,5 +18,6 @@ $ docker-compose build
 
 $ docker-compose up
 
-##Finished
+## Finished
+
 Agora é só esperar o servidor inicializar!
