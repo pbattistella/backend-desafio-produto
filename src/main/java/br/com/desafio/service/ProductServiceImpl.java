@@ -22,7 +22,7 @@ public class ProductServiceImpl implements ProductService{
     @Override
     public Product update(Long id, Product product) {
         Optional<Product> updatedProduct = productRepository.findById(id);
-        if (updatedProduct.isEmpty() ) {
+        if (! updatedProduct.isEmpty() ) {
             updatedProduct.get().setName(product.getName());
             updatedProduct.get().setDescription(product.getDescription());
             updatedProduct.get().setPrice(product.getPrice());
